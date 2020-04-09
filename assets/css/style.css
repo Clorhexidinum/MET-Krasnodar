@@ -147,6 +147,9 @@ img {
   background-color: #F3F2F0;
 }
 
+.advantages__container-header {
+  padding-top: 20px;
+ }
 .advantages__list {
   margin: 30px;
   padding: 0;

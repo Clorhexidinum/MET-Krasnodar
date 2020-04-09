@@ -1,10 +1,9 @@
-var link =  document.querySelector(".nav__menu-btn");
-var menu =  document.querySelector(".nav__list");
+var link = document.querySelector(".nav__menu-btn");
+var menu = document.querySelector(".nav__list");
 var rem = document.getElementById('remeks');
 var rev = document.getElementById('revel');
 var sta = document.getElementById('staut');
 var pop = document.getElementById('popup');
-var over = document.querySelector(".overlay");
 
 
 menu.classList.remove('nav__list--no-js');
@@ -19,7 +18,7 @@ function remeks() {
 }
 
 function closeRm() {
-  rev.classList.remove("remeks-show");
+  rem.classList.remove("remeks-show");
 }
 
 function revel() {
@@ -48,15 +47,6 @@ function popup() {
 function close1() {
   pop.classList.toggle("popup-show");
 }
-
-
-over.addEventListener("click", function(evt) {
-  evt.preventDefault();
-  pop.classList.remove("popup-show");
-  sta.classList.remove("staut-show");
-  rev.classList.remove("revel-show");
-  rem.classList.remove("remeks-show");
-});
 
 
 window.addEventListener("keydown", function (evt) {
