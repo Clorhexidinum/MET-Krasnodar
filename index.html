@@ -12,61 +12,63 @@
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </head>
   <body>
-    <div id="hideMe">
-      <header class="page-header">
-        <nav class="page-header__nav nav" id="up">
-          <div class="nav__menu-btn">
-        <a class="nav__menu-link">Меню</a>
+    <header class="page-header">
+      <nav class="page-header__nav nav" id="up">
+        <div class="nav__menu-btn">
+           <a class="nav__menu-link">Меню</a>
+           <a class="nav__menu-logo"><img class="nav__menu-logo" src="img/menu-logo.svg" alt=""></a>
         </div> 
-          <ul class="nav__list nav__list--no-js">
-            <li class="nav__item nav__item--phone"><a class="nav__link nav__link--phone" href="tel:+78614117711" title="Телефон">+7-861-411-77-11</a></li>
-            <li class="nav__item"><a class="nav__link" title="О нас" href="#advantages">О нас</a></li>
-            <li class="nav__item"><a class="nav__link" title="Товары" href="#goods">Товары</a></li>
-            <li class="nav__item"><a class="nav__link" title="Доставка" href="#delivery">Доставка</a></li>
-            <li class="nav__item"><a class="nav__link" title="Контакты" href="#contacts">Контакты</a></li>
-          </ul>
-        </nav>
+        <ul class="nav__list nav__list--no-js">
+          <li class="nav__item"><a class="nav__link" title="О нас" href="#advantages">О нас</a></li>
+          <li class="nav__item"><a class="nav__link" title="Товары" href="#goods">Товары</a></li>
+          <li class="nav__item"><a class="nav__link" title="Доставка" href="#delivery">Доставка</a></li>
+          <li class="nav__item"><a class="nav__link" title="Контакты" href="#contacts">Контакты</a></li>
+        </ul>
+      </nav>
     </header>  
       <main class="page-main">
-        <h1 class="visually-hiden">Медицинская мебель: MET</h1>
         <section class="page-logo logo">
-          <h2 class="visually-hiden">Лого</h2>
-          <svg  class="logo__main" enable-background="new 0 0 201.6 101.1" viewBox="0 0 201.6 101.1" xmlns="http://www.w3.org/2000/svg"><path d="m192.5 76.8c-.7 5.4-5.8 10.3-11.3 10.8l-148 13.5c-5.5.5-11-3.5-12.4-8.8l-20.5-82.6c-1.3-5.3 2.1-9.7 7.6-9.7h185c5.5 0 9.4 4.5 8.7 9.9z" fill="#f5a408"/><g fill="#fff"><path d="m30.7 21.6h13.9l11.3 18.4 11.3-18.4h13.9v47.4h-13.1v-27.2l-12.1 18.6h-.3l-12-18.4v27h-12.9z"/><path d="m88.1 21.6h38.1v11.2h-25.2v7.2h22.8v10.4h-22.8v7.5h25.5v11.1h-38.4z"/><path d="m146.2 33.1h-14.2v-11.5h41.6v11.5h-14.2v35.9h-13.1v-35.9z"/></g></svg>
+          <h1 class="visually-hiden">Медицинская мебель: MET</h1>
         </section>
         <section class="page__advantages advantages">
-          <h2 class="advantages__header"><a id="advantages">Кто мы?</a></h2>
-          <p class="advantages__description">Торгово-производственная компания met.ru представляет высококачественное медицинское оборудование. У нас вы найдете широкий ассортимент медтехники: функциональные кровати, инвалидные коляски, подъемники, массажные столы, больничное оборудование, и многое другое. Мы предлагаем самые низкие цены в на мед. оборудование! Помимо розничной торговли мы осуществляем комплексное оснащение государственных и частных лечебных заведений современной медицинской мебелью. Мы успешно работаем, как с крупными организациями, так и с частными лицами. На нашем складе можно купить, как крупную партию какой-либо продукции, так и единичный экземпляр.</p>
-          <div class="advantages__container">
-          <h2 class="advantages__container-header">Почему выбирают нас?</h2>
-          <ul class="advantages__list">
-            <li class="advantages__item">
-              <img src="img/piggy-bank.svg" width="80" height="80" class="advantages__icon" alt="Write">
-              <p class="advantages__item-description">Самые низкие цены и отменное качество продукции</p>
-            </li>
-            <li class="advantages__item">
-              <img src="img/shopping-cart.svg" width="80" height="80" class="advantages__icon" alt="Write">
-              <p class="advantages__item-description">Быстрый выбор, не выходя из дома</p>
-            </li>
-            <li class="advantages__item">
-              <img src="img/delivery.svg" width="80" height="80" class="advantages__icon" alt="Write">
-              <p class="advantages__item-description">Быстрая доставка</p>
-            </li>
-            <li class="advantages__item">
-              <img src="img/settings.svg" width="80" height="80" class="advantages__icon" alt="Write">
-              <p class="advantages__item-description">Сборка и подъем на этаж</p>
-            </li>
-            <li class="advantages__item">
-              <img src="img/package.svg" width="80" height="80" class="advantages__icon" alt="Write">
-              <p class="advantages__item-description">Собственные склады Все "хиты" продаж в наличии</p>
-            </li>
-          </ul>
-        </div>
+          <div class="advantages__top">
+            <h2 class="advantages__header"><a id="advantages">Кто мы?</a></h2>
+            <p class="advantages__description">Торгово-производственная компания met.ru представляет высококачественное медицинское оборудование. У нас вы найдете широкий ассортимент медтехники: функциональные кровати, инвалидные коляски, подъемники, массажные столы, больничное оборудование, и многое другое. Мы предлагаем самые низкие цены в на мед. оборудование! Помимо розничной торговли мы осуществляем комплексное оснащение государственных и частных лечебных заведений современной медицинской мебелью. Мы успешно работаем, как с крупными организациями, так и с частными лицами. На нашем складе можно купить, как крупную партию какой-либо продукции, так и единичный экземпляр.</p>
+          </div>
+          <div class="advantages__bottom">
+            <h2 class="advantages__container-header">Почему выбирают нас?</h2>
+            <div class="advantages__box">
+              <img class="advantages__img" src="" alt="">
+              <ul class="advantages__list">
+                <li class="advantages__item">
+                  <img src="img/piggy-bank.svg" class="advantages__icon" alt="Write">
+                  <p class="advantages__item-description">Самые низкие цены и отменное качество продукции</p>
+                </li>
+                <li class="advantages__item">
+                  <img src="img/shopping-cart.svg" class="advantages__icon" alt="Write">
+                  <p class="advantages__item-description">Быстрый выбор, не выходя из дома</p>
+                </li>
+                <li class="advantages__item">
+                  <img src="img/delivery.svg" class="advantages__icon" alt="Write">
+                  <p class="advantages__item-description">Быстрая доставка</p>
+                </li>
+                <li class="advantages__item">
+                  <img src="img/settings.svg" class="advantages__icon" alt="Write">
+                  <p class="advantages__item-description">Сборка и подъем на этаж</p>
+                </li>
+                <li class="advantages__item">
+                  <img src="img/package.svg" class="advantages__icon" alt="Write">
+                  <p class="advantages__item-description">Собственные склады Все "хиты" продаж в наличии</p>
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
         <section class="page__goods goods">
           <h2 class="goods__header"><a id="goods">Кровати для домашнего ухода</a></h2>
           <ul class="goods__list">
             <li class="goods__item">
-              <div class="goods__preview" onclick="remeks()">
+              <div class="goods__preview">
                 <img src="img/DSC_2799.jpg" class="goods__img" alt="Write">
                 <h3 class="goods__name">МЕТ REMEKS</h3>
                 <ul class="goods__function-list">
@@ -76,13 +78,13 @@
                 </ul>
               </div>	  
               <div class="goods__btn-block">
-                <p class="goods__price"><b>40900 руб.</b></p>
-                <button class="goods__buy-btn" onclick="popup()">Купить</button>
-                <button class="goods__more-btn bt-remeks" onclick="remeks()">Подробнее</button>
+                <p class="goods__price">40900 руб.</p>
+                <button class="goods__buy-btn">Купить</button>
+                <button class="goods__more-btn bt-remeks">Подробнее</button>
               </div>
             </li>
             <li class="goods__item">
-              <div class="goods__preview" onclick="revel()">
+              <div class="goods__preview">
                 <img src="img/DSC_3052.jpg"  class="goods__img" alt="Write">
                 <h3 class="goods__name">MET REVEL NEW 2019</h3>
                 <ul class="goods__function-list">
@@ -92,13 +94,13 @@
                 </ul>
               </div>
               <div class="goods__btn-block">
-                <p class="goods__price"><b>69900 руб.</b></p>
-                <button class="goods__buy-btn" onclick="popup()">Купить</button>
-                <button class="goods__more-btn bt-revel" onclick="revel()">Подробнее</button>
+                <p class="goods__price">69900 руб.</p>
+                <button class="goods__buy-btn">Купить</button>
+                <button class="goods__more-btn bt-revel">Подробнее</button>
               </div>
             </li>
             <li class="goods__item">
-              <div class="goods__preview" onclick="staut()">
+              <div class="goods__preview">
                 <img src="img/DSC00472.jpg" class="goods__img" alt="Write">
                 <h3 class="goods__name">MET STAUT</h3>
                 <ul class="goods__function-list">
@@ -108,9 +110,9 @@
                 </ul>
               </div>
               <div class="goods__btn-block">
-                <p class="goods__price"><b>21900 руб.</b></p>
-                <button class="goods__buy-btn" onclick="popup()">Купить</button>
-                <button class="goods__more-btn bt-staut" onclick="staut()">Подробнее</button>
+                <p class="goods__price">21900 руб.</p>
+                <button class="goods__buy-btn">Купить</button>
+                <button class="goods__more-btn bt-staut">Подробнее</button>
               </div>
             </li>
           </ul>
@@ -118,7 +120,7 @@
         <section class="page__primary-site primary-site">
           <h2 class="visually-hiden">Посетите наш сайт</h2>
           <p class="primary-site__header">Посмотреть полный каталог продукции вы можете на нашем сайте</p>
-          <a href="https://www.met.ru/" target="_blank" class="primary-site__link"><svg  class="primary-site__logo" width="100px" enable-background="new 0 0 201.6 101.1" viewBox="0 0 201.6 101.1" xmlns="http://www.w3.org/2000/svg"><path d="m192.5 76.8c-.7 5.4-5.8 10.3-11.3 10.8l-148 13.5c-5.5.5-11-3.5-12.4-8.8l-20.5-82.6c-1.3-5.3 2.1-9.7 7.6-9.7h185c5.5 0 9.4 4.5 8.7 9.9z" fill="#f5a408"/><g fill="#fff"><path d="m30.7 21.6h13.9l11.3 18.4 11.3-18.4h13.9v47.4h-13.1v-27.2l-12.1 18.6h-.3l-12-18.4v27h-12.9z"/><path d="m88.1 21.6h38.1v11.2h-25.2v7.2h22.8v10.4h-22.8v7.5h25.5v11.1h-38.4z"/><path d="m146.2 33.1h-14.2v-11.5h41.6v11.5h-14.2v35.9h-13.1v-35.9z"/></g></svg></a>
+          <a href="https://www.met.ru/" target="_blank" class="primary-site__link"></a>
         </section>
         <section class="page__delivery delivery">
           <h2 class="delivery__header"><a id="delivery">Как заказать</a></h2>
