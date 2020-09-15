@@ -50,7 +50,6 @@ body {
   max-width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
-  position: relative;
 }
 
 .visually-hiden {
@@ -237,7 +236,7 @@ body {
   border: 1px solid rgba(10,10,10);
   border-radius: 3px;
   color: black;
-  padding: 5px 10px;
+  padding: 5px 20px;
   cursor: pointer;
 }
 
@@ -259,7 +258,7 @@ body {
 }
 
 .delivery__item {
-  width: 200px;
+  width: 185px;
   text-align: center;
 }
 
@@ -267,6 +266,10 @@ body {
   position: relative;
   padding: 20px 0;
   margin: 0;
+}
+
+.map__container {
+  position: relative;
 }
 
 .map__img {
@@ -350,3 +353,123 @@ body {
 .footer__social-img:hover {
   opacity: 1;
 }
+
+.popup {
+  width: 300px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(10,10,10);
+  border-radius: 10px;
+  top: 50px;
+  right: 30px;
+  padding: 20px;
+  margin-left: auto;
+  position: relative;
+  display: none;
+}
+
+.popup__title {
+  font-weight: 700;
+}
+
+.popup__input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 7px 13px;
+  border: 1px solid rgba(10,10,10);
+  border-radius: 3px;
+  resize: none;
+  background-color: rgba(255, 255, 255, .7);
+}
+
+.popup__input::placeholder {
+  color: grey;
+}
+
+.popup__btn {
+  margin-top: 20px;
+}
+
+.close {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  width: 30px;
+  height: 30px;
+  opacity: .7;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.close:hover {
+  opacity: 1;
+}
+
+.close:before, .close:after {
+  position: absolute;
+  left: 15px;
+  content: ' ';
+  height: 20px;
+  width: 2px;
+  background-color: #333;
+}
+
+.close:before {
+  transform: rotate(45deg);
+}
+
+.close:after {
+  transform: rotate(-45deg);
+}
+
+.card {
+  display: none;
+}
+
+.card--active {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+}
+
+.card__box {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(10,10,10);
+  border-radius: 10px;
+  width: 70%;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.card__title {
+  font-size: 25px;
+}
+
+.card__function {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.card__pricebox {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card__price {
+  margin: 0;
+  margin-right: 15px;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0, .7);
+}
+
+@media (max-width: 1000px)
