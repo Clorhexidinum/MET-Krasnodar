@@ -11,6 +11,14 @@ window.addEventListener("keydown", function (evt) {
 
 $(function(){
 
+  $('.nav__menu-btn').on('click', function(){
+    $('.header').toggleClass('header--active');
+  })
+  
+  $('.nav__item').on('click', function(){
+    $('.header').toggleClass('header--active');
+  });
+
   $('.goods__item').on('click', function(){
     $(this).children('.card').addClass('card--active');
   });
