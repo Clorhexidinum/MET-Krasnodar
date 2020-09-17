@@ -96,6 +96,17 @@ body {
   width: 100%;
 }
 
+.up-arrow {
+  position: fixed;
+  bottom: 1vh;
+  right: 1vh;
+  cursor: pointer;
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  z-index: 20;
+}
+
 .header__inner {
   display: flex;
   justify-content: space-between;
