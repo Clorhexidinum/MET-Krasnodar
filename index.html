@@ -5,10 +5,11 @@
     <meta content="text/html">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/slick.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/slick-theme.css" type="text/css">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/slick.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/slick-theme.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/normalize.min.css" type="text/css">
+    <link rel="stylesheet" href="assets/css/style.min.css" type="text/css">
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Медицинская мебель: MET</title>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
@@ -18,7 +19,7 @@
       <div class="container">
         <div class="header__inner">
           <a class="nav__logo">
-            <img width="50" src="images/logo.svg" alt="">
+            <img width="50" src="images/logo.svg" alt="Логотип МЕТ">
           </a>
           <a class="nav__phone" href="tel:+78614117711">+7 (861) 411 77 11</a>
           <nav class="nav" id="up">
@@ -36,20 +37,23 @@
     </header>
     <main class="page-main">
       <section class="page-section logo" id="top">
-        <h1 class="logo__title">Медицинская мебель: MET</h1>
+        <div class="logo__box">
+          <h1 class="logo__title">Медицинская мебель</h1>
+          <img class="logo__img" src="images/main-logo.svg" alt="Логотип МЕТ">
+        </div>
       </section>
 
       <section class="page-section about-us" id="about-us">
         <div class="container">
           <div class="about-us__inner">
             <h3 class="visually-hiden">О нас</h3>
-            <img class="about-us__img" src="images/background.jpg" alt="">
+            <img class="about-us__img" src="images/care.jpg" alt="">
             <div class="about-us__box">
               <h2 class="about-us__title title">Кто мы?</h2>
               <p class="about-us__description">Торгово-производственная компания met.ru представляет высококачественное медицинское оборудование. У нас вы найдете широкий ассортимент медтехники: функциональные кровати, инвалидные коляски, подъемники, массажные столы, больничное оборудование, и многое другое. Мы предлагаем самые низкие цены в на мед. оборудование! Помимо розничной торговли мы осуществляем комплексное оснащение государственных и частных лечебных заведений современной медицинской мебелью. Мы успешно работаем, как с крупными организациями, так и с частными лицами. На нашем складе можно купить, как крупную партию какой-либо продукции, так и единичный экземпляр.</p>
             </div>
           </div>
-          <a class="up-arrow" href="#top"><img  src="images/up-arrow.svg" alt="вверх"></a>
+          <a class="up-arrow" href="#top"><img  src="images/up-arrow.svg" alt="Вверх страницы"></a>
         </div>
       </section>
 
@@ -64,27 +68,27 @@
               <h2 class="benefits__title title">Почему выбирают нас?</h2>
               <ul class="benefits__list">
                 <li class="benefits__item">
-                  <img src="images/piggy-bank.svg" width="50" class="advantages__icon" alt="Write">
+                  <img src="images/piggy-bank.svg" width="50" class="advantages__icon" alt="низкие цены" loading="lazy">
                   <p class="benefits__item-description">Самые низкие цены</p>
                 </li>
                 <li class="benefits__item">
-                  <img src="images/shopping-cart.svg" width="50" class="advantages__icon" alt="Write">
+                  <img src="images/shopping-cart.svg" width="50" class="advantages__icon" alt="удобный выбор">
                   <p class="benefits__item-description">Быстрый выбор, не выходя из дома</p>
                 </li>
                 <li class="benefits__item">
-                  <img src="images/delivery.svg" width="50" class="advantages__icon" alt="Write">
+                  <img src="images/delivery.svg" width="50" class="advantages__icon" alt="доставка" loading="lazy">
                   <p class="benefits__item-description">Быстрая доставка</p>
                 </li>
                 <li class="benefits__item">
-                  <img src="images/settings.svg" width="50" class="advantages__icon" alt="Write">
+                  <img src="images/settings.svg" width="50" class="advantages__icon" alt="сборка" loading="lazy">
                   <p class="benefits__item-description">Сборка и подъем на этаж</p>
                 </li>
                 <li class="benefits__item">
-                  <img src="images/package.svg" width="50" class="advantages__icon" alt="Write">
+                  <img src="images/package.svg" width="50" class="advantages__icon" alt="Товары в наличии" loading="lazy">
                   <p class="benefits__item-description">Собственные склады Все "хиты" продаж в наличии</p>
                 </li>
                 <li class="benefits__item">
-                  <img src="images/quality.svg" width="50" class="advantages__icon" alt="Write">
+                  <img src="images/quality.svg" width="50" class="advantages__icon" alt="Отличное качество" loading="lazy">
                   <p class="benefits__item-description">Отменное качество продукции</p>
                 </li>
               </ul>
@@ -101,12 +105,13 @@
         <div class="container">
           <div class="goods__inner">
             <h3 class="goods__title title">Кровати для домашнего ухода</h3>
+            <p class="goods__subtitle">Все хиты на складе в Краснодаре.</з>
             <ul class="goods__list">
               <li class="goods__item">
                 <div class="goods__preview">
                   <picture>
-                    <source type="image/webp" srcset="images/remeks-1.jpg">
-                    <img class="goods__img" src="images/remeks-1.jpg" alt="глубокий протектор">
+                    <source type="image/webp" srcset="images/remeks-1.webp">
+                    <img class="goods__img" src="images/remeks-1.jpg" alt="Кровать МЕТ Ремекс" loading="lazy">
                   </picture>
                   <h3 class="goods__name">МЕТ REMEKS</h3>
                   <ul class="goods__function-list">
@@ -121,20 +126,20 @@
                       <span class='close'></span>
                       <div class="slider">
                         <picture>
-                          <source type="image/webp" srcset="images/remeks-1.jpg">
-                          <img class="slider__img" src="images/remeks-1.jpg" alt="глубокий протектор">
+                          <source type="image/webp" srcset="images/remeks-1.webp">
+                          <img class="slider__img" src="images/remeks-1.jpg" alt="Положение кардиокресла" loading="lazy">
                         </picture>
                         <picture>
-                          <source type="image/webp" srcset="images/remeks-2.jpg">
-                          <img class="slider__img" src="images/remeks-2.jpg" alt="глубокий протектор">
+                          <source type="image/webp" srcset="images/remeks-2.webp">
+                          <img class="slider__img" src="images/remeks-2.jpg" alt="Переворот во всю длину" loading="lazy">
                         </picture>
                         <picture>
-                          <source type="image/webp" srcset="images/remeks-3.jpg">
-                          <img class="slider__img" src="images/remeks-3.jpg" alt="глубокий протектор">
+                          <source type="image/webp" srcset="images/remeks-3.webp">
+                          <img class="slider__img" src="images/remeks-3.jpg" alt="Рычаги управления" loading="lazy">
                         </picture>
                         <picture>
-                          <source type="image/webp" srcset="images/remeks-4.jpg">
-                          <img class="slider__img" src="images/remeks-4.jpg" alt="глубокий протектор">
+                          <source type="image/webp" srcset="images/remeks-4.webp">
+                          <img class="slider__img" src="images/remeks-4.jpg" alt="Боковые поддержки" loading="lazy">
                         </picture>
                       </div>
                       <h4 class="card__title">МЕТ REMEKS</h4>
@@ -158,7 +163,7 @@
                 <div class="goods__preview">
                   <picture>
                     <source type="image/webp" srcset="images/revel-1.jpg">
-                    <img class="goods__img" src="images/revel-1.jpg" alt="глубокий протектор">
+                    <img class="goods__img" src="images/revel-1.jpg" alt="Кровать МЕТ Ревел">
                   </picture>
                   <h3 class="goods__name">MET REVEL NEW 2019</h3>
                   <ul class="goods__function-list">
@@ -175,19 +180,19 @@
                         <div class="slider">
                           <picture>
                             <source type="image/webp" srcset="images/revel-1.jpg">
-                            <img class="slider__img" src="images/revel-1.jpg" alt="глубокий протектор">
+                            <img class="slider__img" src="images/revel-1.jpg" alt="Пульт">
                           </picture>
                           <picture>
                             <source type="image/webp" srcset="images/revel-2.jpg">
-                            <img class="slider__img" src="images/revel-2.jpg" alt="глубокий протектор">
+                            <img class="slider__img" src="images/revel-2.jpg" alt="Переворот во всю длину">
                           </picture>
                           <picture>
                             <source type="image/webp" srcset="images/revel-3.jpg">
-                            <img class="slider__img" src="images/revel-3.jpg" alt="глубокий протектор">
+                            <img class="slider__img" src="images/revel-3.jpg" alt="Положение кардиокресла">
                           </picture>
                           <picture>
                             <source type="image/webp" srcset="images/revel-4.jpg">
-                            <img class="slider__img" src="images/revel-4.jpg" alt="глубокий протектор">
+                            <img class="slider__img" src="images/revel-4.jpg" alt="ЮСБ разъем">
                           </picture>
                         </div>
                         <h4 class="card__title">МЕТ REVEL NEW 2019</h4>
@@ -212,8 +217,8 @@
               <li class="goods__item">
                 <div class="goods__preview">
                   <picture>
-                    <source type="image/webp" srcset="images/staut-1.jpg">
-                    <img class="goods__img" src="images/staut-1.jpg" alt="глубокий протектор">
+                    <source type="image/webp" srcset="images/staut-1.webp">
+                    <img class="goods__img" src="images/staut-1.jpg" alt="Кровать МЕТ Стаут" loading="lazy">
                   </picture>
                   <h3 class="goods__name">MET STAUT</h3>
                   <ul class="goods__function-list">
@@ -229,20 +234,20 @@
                       <div class="card__container">
                         <div class="slider">
                           <picture>
-                            <source type="image/webp" srcset="images/staut-1.jpg">
-                            <img class="slider__img" src="images/staut-1.jpg" alt="глубокий протектор">
+                            <source type="image/webp" srcset="images/staut-1.webp">
+                            <img class="slider__img" src="images/staut-1.jpg" alt="Положение кардиокресла" loading="lazy">
                           </picture>
                           <picture>
-                            <source type="image/webp" srcset="images/staut-2.jpg">
-                            <img class="slider__img" src="images/staut-2.jpg" alt="глубокий протектор">
+                            <source type="image/webp" srcset="images/staut-2.webp">
+                            <img class="slider__img" src="images/staut-2.jpg" alt="Рычаги управления" loading="lazy">
                           </picture>
                           <picture>
-                            <source type="image/webp" srcset="images/staut-3.jpg">
-                            <img class="slider__img" src="images/staut-3.jpg" alt="глубокий протектор">
+                            <source type="image/webp" srcset="images/staut-3.webp">
+                            <img class="slider__img" src="images/staut-3.jpg" alt="Ноги вниз" loading="lazy">
                           </picture>
                           <picture>
-                            <source type="image/webp" srcset="images/staut-4.jpg">
-                            <img class="slider__img" src="images/staut-4.jpg" alt="глубокий протектор">
+                            <source type="image/webp" srcset="images/staut-4.webp">
+                            <img class="slider__img" src="images/staut-4.jpg" alt="Ноги вверх" loading="lazy">
                           </picture>
                         </div>
                         <h4 class="card__title">МЕТ STAUT</h4>
@@ -262,6 +267,45 @@
                   <p class="goods__price">21900 руб.</p>
                 </div>
               </li>
+              <li class="goods__item">
+                <a class="goods__preview primary-site" href="https://www.met.ru/" target="_blank">
+                  <div class="primary-site__slider">
+                    <picture>
+                      <source type="image/webp" srcset="images/staut-1.jpg">
+                      <img class="goods__img" src="images/staut-1.jpg" alt="глубокий протектор" loading="lazy" loading="lazy">
+                    </picture>
+                    <picture>
+                      <source type="image/webp" srcset="images/staut-2.jpg">
+                      <img class="goods__img" src="images/staut-2.jpg" alt="глубокий протектор" loading="lazy" loading="lazy">
+                    </picture>
+                    <picture>
+                      <source type="image/webp" srcset="images/staut-3.jpg">
+                      <img class="goods__img" src="images/staut-3.jpg" alt="глубокий протектор" loading="lazy" loading="lazy">
+                    </picture>
+                    <picture>
+                      <source type="image/webp" srcset="images/staut-4.jpg">
+                      <img class="goods__img" src="images/staut-4.jpg" alt="глубокий протектор" loading="lazy" loading="lazy">
+                    </picture>
+                    <picture>
+                      <source type="image/webp" srcset="images/staut-4.jpg">
+                      <img class="goods__img" src="images/staut-4.jpg" alt="глубокий протектор" loading="lazy" loading="lazy">
+                    </picture>
+                    <picture>
+                      <source type="image/webp" srcset="images/staut-4.jpg">
+                      <img class="goods__img" src="images/staut-4.jpg" alt="глубокий протектор" loading="lazy" loading="lazy">
+                    </picture>
+                  </div>
+                  <h3 class="goods__name">Все остальные товары на нашем сайте</h3>
+                  <ul class="goods__function-list">
+                    <li class="goods__function-item">Большой выбор кроватей</li>
+                    <li class="goods__function-item">Инвалидные коляски</li>
+                    <li class="goods__function-item">Медицинские подъемники</li>
+                  </ul>
+                </ф>
+                <div class="goods__btn-block">
+                  <a class="primary-site__btn btn" href="https://www.met.ru/" target="_blank">Смотреть</a>
+                </div>
+              </li>
             </ul>
           </div>
         </div>
@@ -277,19 +321,19 @@
             <h2 class="delivery__title title">Как заказать</h2>
             <ul class="delivery__list">
               <li class="delivery__item">
-                <img src="images/laptop.svg" class="delivery__icon" alt="Write">
+                <img src="images/laptop.svg" class="delivery__icon" alt="Заказ" loading="lazy">
                 <p class="delivery__description">Вы делаете заказ</p>
               </li>
               <li class="delivery__item">
-                <img src="images/phone-call.svg" class="delivery__icon" alt="Write">
+                <img src="images/phone-call.svg" class="delivery__icon" alt="Звонок менеджера" loading="lazy">
                 <p class="delivery__description">Менеджер связывается для уточнения деталей</p>
               </li>
               <li class="delivery__item">
-                <img src="images/trolley.svg" class="delivery__icon" alt="Write">
+                <img src="images/trolley.svg" class="delivery__icon" alt="Комплектовка заказа" loading="lazy">
                 <p class="delivery__description">Мы комплектуем заказ и уточняем время доставки</p>
               </li>
               <li class="delivery__item">
-                <img src="images/shopping-bag.svg" class="delivery__icon" alt="Write">
+                <img src="images/shopping-bag.svg" class="delivery__icon" alt="Доставка" loading="lazy">
                 <p class="delivery__description">Доставляем и собираем</p>
               </li>
             </ul>
@@ -343,17 +387,17 @@
             <ul class="footer__social-list">
               <li class="footer__social-item">
                  <a class="footer__social-link" href="https://www.met.ru/" target="_blank">
-                  <img class="footer__social-img" src="images/youtube.svg" alt="основной сайт">
+                  <img class="footer__social-img" src="images/met.png" alt="основной сайт" loading="lazy">
                 </a>
               </li>
               <li class="footer__social-item">
                 <a class="footer__social-link" href="https://www.youtube.com/user/METchanel/playlists" target="_blank">
-                  <img class="footer__social-img" src="images/youtube.svg" alt="мы на ютубе">
+                  <img class="footer__social-img" src="images/youtube.svg" alt="мы на ютубе" loading="lazy">
                 </a>
               </li>
               <li class="footer__social-item">
                 <a class="footer__social-link" href="https://market.yandex.ru/shop--met-ru/79726/reviews" target="_blank">
-                  <img class="footer__social-img" src="images/market.png" alt="яндекс маркет">
+                  <img class="footer__social-img" src="images/market.png" alt="яндекс маркет" loading="lazy">
                 </a>
               </li>
              </ul>
@@ -396,6 +440,6 @@
     <script src="assets/js/modules/validate.js"></script>
     <script src="assets/js/modules/slick.min.js"></script>
     <script src="assets/js/parallax.min.js"></script>
-    <script src="assets/js/script.js"></script>
+    <script src="assets/js/script.min.js"></script>
   </body>
 </html>
