@@ -198,7 +198,7 @@ body {
   color: #ffffff;
   font-size: 50px;
   line-height: 60px;
-  text-shadow: -1px 0px 4px rgba(150, 150, 150, 1);
+  text-shadow: 2px 3px 4px #000;
 }
 
 .logo__img {
