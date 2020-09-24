@@ -131,12 +131,7 @@ body {
 
 .nav__logo {
   display: flex;
-  opacity: .7;
   cursor: pointer;
-}
-
-.nav__logo:hover {
-  opacity: 1;
 }
 
 .nav__list {
