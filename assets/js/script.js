@@ -21,18 +21,6 @@ $(function(){
     nextArrow: '  <button class="slider-btn slider-btn__right"><svg width="10" height="18" viewBox="0 0 10 18" fill="#000" xmlns="http://www.w3.org/2000/svg"><path d="M0.78161 17L9 9L0.78161 1"/></svg></button>'
   });
 
-  $('.primary-site__slider').slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    arrows: false,
-    fade: true,
-    autoplay: true,
-    speed: 100,
-    centerMode: true,
-    dots: false,
-    cssEase: 'linear',
-   });
-
   $('.goods__preview').on('click', function(){
     $("body").css("overflow-y","hidden");
     $(this).next('.card').addClass('card--active');
